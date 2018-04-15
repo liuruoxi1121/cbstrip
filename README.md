@@ -1,0 +1,2 @@
+# cbstrip
+my graduate design
