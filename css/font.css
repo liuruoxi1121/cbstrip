@@ -1,0 +1,819 @@
+.nav .icon_pub,.totop .icon_pub {
+	background-image: url(font.png);
+	background-repeat: no-repeat
+}
+
+.nav .ce:hover .icon_pub {
+	background-image: url(font.gif)
+}
+
+.nav .list .cur:hover .icon_pub {
+	background-image: url(font.png)
+}
+
+.tips_up .tu_close {
+	background-image: url(font2.png);
+	background-repeat: no-repeat
+}
+
+.tips_up .tu_bg {
+	background-image: url(font2.gif)
+}
+
+.tips_up .tu_sogou {
+	background-image: url(http://p0.123.sogoucdn.com/imgu/2014/06/20140603165304_720.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat
+}
+
+
+.nav .advert-pos {
+	position: absolute;
+	right: 0;
+	bottom: 7px;
+	display: none
+}
+
+.nav .advert-pos a,.nav .advert-pos img {
+	display: block;
+	width: 200px;
+	height: 75pt
+}
+
+.nav .n-top {
+	padding-top: 14px;
+	height: 50px
+}
+
+.nav .site_logo {
+	float: left;
+	margin-right: 8px;
+	height: 50px
+}
+
+.nav .site_logo .tit {
+	visibility: hidden
+}
+
+.nav .site_logo .logo {
+	display: block
+}
+
+.nav .site_logo img {
+	display: block;
+	width: auto;
+	height: 50px
+}
+
+.nav .bar {
+	position: relative;
+	float: left;
+	width: 29px;
+	height: 50px
+}
+
+.nav .bar .vb {
+	position: absolute;
+	top: 19px;
+	left: 14px;
+	display: block;
+	overflow: hidden;
+	width: 1px;
+	height: 17px;
+	background-color: #a8b0b9
+}
+
+.nav .slogan {
+	float: left;
+	height: 50px
+}
+
+.nav .slogan img {
+	display: block;
+	width: auto;
+	height: 50px
+}
+
+.nav .n-bottom {
+	padding-top: 1pc
+}
+
+.nav .list {
+	height: 30px
+}
+
+.nav .ce {
+	float: left;
+	margin-left: 14px;
+	padding-right: 1pc;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.nav .ce span {
+	display: block;
+	height: 30px
+}
+
+.nav .ce .icon {
+	float: left;
+	margin-top: 2px;
+	width: 22px;
+	height: 22px
+}
+
+.nav .ce strong {
+	float: left;
+	margin-left: 5px;
+	color: #5e5e5e;
+	font: 700 1pc/30px "\5B8B\4F53"
+}
+
+.nav .ce .home .icon {
+	background-position: 0 0
+}
+
+.nav .ce .plane .icon {
+	background-position: -24px 0
+}
+
+.nav .ce .hotel .icon {
+	background-position: -3pc 0
+}
+
+.nav .ce .holiday .icon {
+	background-position: -72px 0
+}
+
+.nav .ce .special .icon {
+	background-position: -6pc 0
+}
+
+.nav .ce .ticket .icon {
+	background-position: -90pt 0
+}
+
+.nav .ce .train .icon {
+	background-position: -9pc 0
+}
+
+.nav .ce .bus .icon {
+	background-position: -168px 0
+}
+
+.nav .ce .guide .icon {
+	background-position: -2in 0
+}
+
+.nav .ce .zuche .icon {
+	background-position: 0 -51px
+}
+
+.nav .ce:hover {
+	zoom: 1
+}
+
+.nav .ce:hover strong {
+	transition: color .35s ease-out
+}
+
+.nav .ce:hover .ce strong {
+	transition: color .4s ease 0s
+}
+
+.nav .ce:hover .home .icon {
+	background-position: -9pt -8px
+}
+
+.nav .ce:hover .home strong {
+	color: #e52b4e
+}
+
+.nav .ce:hover .plane .icon {
+	background-position: -54px -8px
+}
+
+.nav .ce:hover .plane strong {
+	color: #6897e6
+}
+
+.nav .ce:hover .hotel .icon {
+	background-position: -6pc -8px
+}
+
+.nav .ce:hover .hotel strong {
+	color: #4f8ce4
+}
+
+.nav .ce:hover .holiday .icon {
+	background-position: -138px -8px
+}
+
+.nav .ce:hover .holiday strong {
+	color: #71b7a2
+}
+
+.nav .ce:hover .special .icon {
+	background-position: -180px -7px
+}
+
+.nav .ce:hover .special strong {
+	color: #e74a68
+}
+
+.nav .ce:hover .ticket .icon {
+	background-position: -222px -8px
+}
+
+.nav .ce:hover .ticket strong {
+	color: #3a9aeb
+}
+
+.nav .ce:hover .train .icon {
+	background-position: -264px -8px
+}
+
+.nav .ce:hover .train strong {
+	color: #e58900
+}
+
+.nav .ce:hover .bus .icon {
+	background-position: -306px -8px
+}
+
+.nav .ce:hover .bus strong {
+	color: #67a5f1
+}
+
+.nav .ce:hover .zuche .icon {
+	background-position: -392px -8px
+}
+
+.nav .ce:hover .zuche strong {
+	color: #67a5f1
+}
+
+.nav .ce:hover .guide .icon {
+	background-position: -348px -8px
+}
+
+.nav .ce:hover .guide strong {
+	color: #d3632b
+}
+
+.nav .list .cur,.nav .list .cur:hover {
+	zoom: 1
+}
+
+.nav .list .cur .home .icon,.nav .list .cur:hover .home .icon {
+	background-position: 0 -24px
+}
+
+.nav .list .cur .home strong,.nav .list .cur:hover .home strong {
+	color: #e52b4e
+}
+
+.nav .list .cur .plane .icon,.nav .list .cur:hover .plane .icon {
+	background-position: -24px -24px
+}
+
+.nav .list .cur .plane strong,.nav .list .cur:hover .plane strong {
+	color: #6897e6
+}
+
+.nav .list .cur .hotel .icon,.nav .list .cur:hover .hotel .icon {
+	background-position: -3pc -24px
+}
+
+.nav .list .cur .hotel strong,.nav .list .cur:hover .hotel strong {
+	color: #4f8ce4
+}
+
+.nav .list .cur .holiday .icon,.nav .list .cur:hover .holiday .icon {
+	background-position: -72px -24px
+}
+
+.nav .list .cur .holiday strong,.nav .list .cur:hover .holiday strong {
+	color: #71b7a2
+}
+
+.nav .list .cur .special .icon,.nav .list .cur:hover .special .icon {
+	background-position: -6pc -24px
+}
+
+.nav .list .cur .special strong,.nav .list .cur:hover .special strong {
+	color: #e74a68
+}
+
+.nav .list .cur .ticket .icon,.nav .list .cur:hover .ticket .icon {
+	background-position: -90pt -24px
+}
+
+.nav .list .cur .ticket strong,.nav .list .cur:hover .ticket strong {
+	color: #3a9aeb
+}
+
+.nav .list .cur .train .icon,.nav .list .cur:hover .train .icon {
+	background-position: -9pc -24px
+}
+
+.nav .list .cur .train strong,.nav .list .cur:hover .train strong {
+	color: #e58900
+}
+
+.nav .list .cur .bus .icon,.nav .list .cur:hover .bus .icon {
+	background-position: -168px -24px
+}
+
+.nav .list .cur .bus strong,.nav .list .cur:hover .bus strong {
+	color: #67a5f1
+}
+
+.nav .list .cur .guide .icon,.nav .list .cur:hover .guide .icon {
+	background-position: -2in -24px
+}
+
+.nav .list .cur .guide strong,.nav .list .cur:hover .guide strong {
+	color: #d3632b
+}
+
+.ie6 .nav .ce span {
+	display: inline
+}
+
+.go-footer {
+	padding: 20px 0 40px;
+	width: 100%;
+	min-width: 980px;
+	background-color: #fafafa;
+	font-family: \5B8B\4F53
+}
+
+.go-footer a {
+	color: #a8b0b9
+}
+
+.go-footer a:hover {
+	color: #4f8ce4
+}
+
+.go-footer .inner {
+	color: #a8b0b9;
+	text-align: center;
+	line-height: 20px
+}
+
+.go-footer .list {
+	margin-bottom: 14px;
+	height: 20px
+}
+
+.go-footer .list a {
+	margin-left: 25px
+}
+
+.go-footer .list a.about {
+	margin-left: 0
+}
+
+.go-footer .copyright {
+	height: 20px
+}
+
+.totop {
+	right: 20px;
+	z-index: 19;
+	display: none
+}
+
+.totop,.totop .inner {
+	position: absolute;
+	width: 59px
+}
+
+.totop .inner {
+	top: 0;
+	left: -1px;
+	background-color: #fff
+}
+
+.totop .ce {
+	display: block;
+	margin-bottom: 4px;
+	width: 60px;
+	height: 26px;
+	color: #a8b0b9;
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px
+}
+
+.totop .codeCnt {
+	position: absolute;
+	top: -180px;
+	right: 60px;
+	display: none;
+	padding: 0 10px;
+	width: 184px;
+	height: 234px;
+	border: 1px solid #6897e6;
+	background-color: #fff
+}
+
+.totop .codeCnt .pic {
+	overflow: hidden;
+	margin-bottom: 8px;
+	padding-top: 10px;
+	width: 184px;
+	height: 184px
+}
+
+.totop .codeCnt .pic img {
+	display: block;
+	width: 184px;
+	height: 184px
+}
+
+.totop .codeCnt .tx {
+	overflow: hidden;
+	height: 24px;
+	color: #5e5e5e;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px
+}
+
+.totop .qrcode .icon,.totop .top .icon {
+	position: absolute;
+	top: 4px;
+	left: 20px;
+	overflow: hidden;
+	width: 18px;
+	height: 18px
+}
+
+.totop .qrcode {
+	position: relative
+}
+
+.totop .qrcode .icon {
+	background-position: -218px -2px
+}
+
+.totop .qrcode:hover .icon {
+	background-position: -242px -2px
+}
+
+.totop .top {
+	position: relative;
+	margin-bottom: 0
+}
+
+.totop .top .icon {
+	width: 19px;
+	background-position: -217px -23px
+}
+
+.totop .top:hover .icon {
+	background-position: -242px -23px
+}
+
+.pubBox {
+	position: absolute;
+	z-index: 19;
+	display: none;
+	border: 1px solid #e1e1e1;
+	border-top: 1px solid #f6f6f6;
+	border-bottom: 1px solid #e1e1e1;
+	box-shadow: 0 1px 0 #c2c2c2,0 1px 1px #c2c2c2
+}
+
+.iBombList,.pubBox {
+	background-color: #fff
+}
+
+.iBombList {
+	padding: 0 14px;
+	width: 340px
+}
+
+.iBombList .p1 {
+	margin-bottom: 3px;
+	height: 34px;
+	color: #78899c;
+	line-height: 34px
+}
+
+.iBombList .tab1 {
+	overflow: hidden;
+	height: 20px;
+	border-bottom: 1px solid #208eed
+}
+
+.iBombList .tab1 a {
+	float: left;
+	overflow: hidden;
+	padding: 0 10px;
+	height: 20px;
+	color: #7e929b;
+	text-align: center;
+	font-family: Arial;
+	line-height: 20px;
+	cursor: pointer
+}
+
+.iBombList .tab1 a:hover {
+	color: #5c8ee5
+}
+
+.iBombList .tab1 li {
+	float: left;
+	height: 18px
+}
+
+.iBombList .tab1 li.active {
+	height: 20px;
+	background-color: #4f8ce4
+}
+
+.iBombList .tab1 li.active a,.iBombList .tab1 li.active a:hover {
+	color: #fff
+}
+
+.iBombList .nList {
+	overflow: hidden;
+	padding: 10px 0
+}
+
+.iBombList .nList li {
+	float: left;
+	width: 68px;
+	height: 22px;
+	line-height: 22px
+}
+
+.iBombList .nList li a {
+	color: #333
+}
+
+.iBombList .nList li a:hover {
+	color: #5390e9
+}
+
+.il-wide {
+	width: 412px
+}
+
+.letterList {
+	padding: 10px 0
+}
+
+.letterList dt {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 1pc;
+	height: 20px;
+	color: #ff3400;
+	line-height: 20px
+}
+
+.letterList dd {
+	float: left;
+	width: 20pc
+}
+
+.subnList li {
+	float: left;
+	overflow: hidden;
+	width: 4pc;
+	height: 22px;
+	white-space: nowrap;
+	line-height: 22px
+}
+
+.subnList li a:hover {
+	color: #5390e9
+}
+
+.ikeyAsso {
+	overflow: hidden;
+	padding: 5px 0;
+	width: 158px;
+	background: #fff
+}
+
+.ikeyAsso .c {
+	display: block;
+	overflow: hidden;
+	padding: 0 9px;
+	height: 24px;
+	color: #78899b;
+	line-height: 24px
+}
+
+.ikeyAsso .c .key {
+	margin-right: 5px
+}
+
+.ikeyAsso .c:hover,.ikeyAsso a.cur {
+	background-color: #f3f7ff
+}
+
+.ikeyAsso .nofltplace.cur,.ikeyAsso .nofltplace:hover {
+	background-color: #fff
+}
+
+.ikeyAsso .nofltplace .tx {
+	display: block;
+	border-bottom: 1px solid #f1f1f1;
+	color: #4f8ce4;
+	line-height: 23px
+}
+
+.ikeyAsso .ntx {
+	padding-left: 45px
+}
+
+.iError {
+	position: absolute;
+	z-index: 19;
+	display: none;
+	overflow: hidden;
+	padding-left: 13px;
+	width: 147px;
+	height: 24px;
+	background-color: #ffe4e9;
+	color: #333;
+	text-align: center;
+	line-height: 24px
+}
+
+.iCitylist {
+	padding: 0 9pt;
+	width: 344px
+}
+
+.iCitylist .list {
+	overflow: hidden;
+	padding: 2px 0 5px
+}
+
+.iCitylist .list li {
+	position: relative;
+	padding: 5px 0 3px 49px;
+	height: 100%;
+	border-bottom: 1px solid #f1f1f1;
+	line-height: 23px
+}
+
+.iCitylist .list li.b0 {
+	border-bottom: 0 none
+}
+
+.iCitylist .list .name {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	color: #718ba6
+}
+
+.iCitylist .list a {
+	margin-right: 8px;
+	color: #333;
+	white-space: nowrap;
+	cursor: pointer
+}
+
+.iCitylist .list a:hover {
+	color: #5892e6
+}
+
+.iRecomCity {
+	padding: 0 14px;
+	width: 340px
+}
+
+.iRecomCity .hd {
+	position: relative;
+	margin-bottom: 5px;
+	height: 33px;
+	border-bottom: 1px solid #4f8ce5;
+	color: #8188a2;
+	line-height: 33px
+}
+
+.iRecomCity .contList {
+	padding: 5px 0;
+	width: 340px
+}
+
+.iRecomCity .contList a {
+	position: relative;
+	float: left;
+	display: block;
+	width: 68px;
+	height: 22px;
+	color: #333;
+	text-align: left;
+	white-space: nowrap;
+	line-height: 22px
+}
+
+.iRecomCity .contList a:hover {
+	color: #4c8ddd
+}
+
+.iRecomCity.ircMini {
+	width: 129px
+}
+
+.iRecomCity.ircMini .contList {
+	width: 93pt
+}
+
+.iRecomCity.ircMini .contList a {
+	margin-right: 5px;
+	width: auto
+}
+
+.tips_up {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	z-index: 30;
+	display: none;
+	margin-left: -255px;
+	width: 510px;
+	height: 106px
+}
+
+.tips_up .tu_close {
+	position: absolute;
+	top: -10px;
+	right: -8px;
+	z-index: 4;
+	width: 23px;
+	height: 23px;
+	background-position: -113px -1px;
+	cursor: pointer
+}
+
+.tips_up .tu_bg {
+	top: 0;
+	left: 0;
+	z-index: 2;
+	border: 5px solid #333;
+	border-radius: 8px;
+	opacity: .1;
+	filter: Alpha(opacity=10);
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px
+}
+
+.tips_up .tu_bg,.tips_up .tu_cont {
+	position: absolute;
+	z-index: 3;
+	width: 500px;
+	height: 6pc
+}
+
+.tips_up .tu_cont {
+	top: 5px;
+	left: 5px;
+	border-radius: 4px;
+	background: #fff;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px
+}
+
+.tips_up .tu_tx {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1pc 0 0 26px;
+	width: 345px;
+	height: 5pc
+}
+
+.tips_up .tit {
+	margin-bottom: 14px;
+	color: #797979;
+	font-weight: 700;
+	font-size: 14px
+}
+
+.tips_up .tx {
+	color: #7a7a7a;
+	font-size: 9pt;
+	line-height: 18px
+}
+
+.tips_up .tu_sogou {
+	position: absolute;
+	top: 21px;
+	left: 397px;
+	width: 46px;
+	hei: 63px
+}
